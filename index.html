@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel='icon' href="images/ikon navbar/logo.png" type="image/x-icon">
+	<title>WAWAS</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/welcome.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/products.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/contact.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/about.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<!------------------------------- sidebar and title page ------------------------------->
+	<div class="row" id="page">
+		<!------------------------------- sidebar ------------------------------->
+		<div class="sidebar" id="onscroll">
+			<a class="box" href="">
+				<div class="img-logo"><img src="images/ikon navbar/logo.png" alt="home"></div>
+			</a>
+			<a class="box"
+				onclick="document.getElementById('mainblog').innerHTML=document.getElementById('about').innerHTML">
+				<div class="img-box"><img src="images/ikon navbar/bullet.png" alt="contact" style="float: left;">
+					<div class="t">ABOUT</div>
+				</div>
+			</a>
+			<a class="box"
+				onclick="document.getElementById('mainblog').innerHTML=document.getElementById('products').innerHTML">
+				<div class="img-box"><img src="images/ikon navbar/bullet.png" alt="products" style="float: left;">
+					<div class="t">PRODUCTS</div>
+				</div>
+			</a>
+			<a class="box"
+				onclick="document.getElementById('mainblog').innerHTML=document.getElementById('contact').innerHTML">
+				<div class="img-box"><img src="images/ikon navbar/bullet.png" alt="contact" style="float: left;">
+					<div class="t">WISHLIST</div>
+				</div>
+			</a>
+		</div>
+		<div class="main">
+			<div id="mainblog">
+				<div id="open-page">
+					<div id="bar">
+						<div class="main-content">
+							<div class="main-title">
+								WAWAS
+							</div>
+						</div>
+						<div class="main-desc">
+							SIMPLE</br>
+							INTERACTIVE</br>
+							AESTHETIC
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!------------------------------- about page ------------------------------->
+			<div id="about" style="display: none;">
+				<div id="bar">
+					<div class="about-content" id="about-content-1">
+						<div class="about-desc">
+							WAWAS adalah lorem ipsum
+							dolor sit amet. Lorem ipsum
+							sit dolor amet. Ipsum dolor
+							amet sit lorem.
+						</div>
+					</div>
+					<div class="about-title">
+						ABOUT
+					</div>
+					<div class="about-link">
+						<div class="sosmed">
+							<img src="images/contak/ig.png">
+						</div>
+						<div class="sosmed">
+							<img src="images/contak/fb.png">
+						</div>
+						<div class="sosmed">
+							<img src="images/contak/email.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!------------------------------- products page ------------------------------->
+	<div id="products" style="display: none;">
+		<div id="bar">
+			<div class="pr-content" id="about-content-2">
+				<div class="pr-product-a">
+					<img src="images/products/tipe-a.png" class="pr-img-sm">
+				</div>
+				<div class="pr-desc-a">
+					WAWAS adalah lorem ipsum
+					dolor sit amet. Lorem ipsum
+					sit dolor amet. Ipsum dolor
+					amet sit lorem.
+				</div>
+				<div class="pr-product-b">
+					<img src="images/products/tipe-b.png" class="pr-img-lg">
+				</div>
+				<div class="pr-desc-b">
+					INI PRODUK lorem ipsum
+					dolor sit amet. Lorem ipsum
+					sit dolor amet. Ipsum dolor
+					amet sit lorem.
+				</div>
+				<div class="pr-product-c">
+					<img src="images/products/tipe-c.png" class="pr-img-sm">
+				</div>
+				<div class="pr-desc-c">
+					PRODUK LAINNYA LAGI lorem ipsum
+					dolor sit amet. Lorem ipsum
+					sit dolor amet. Ipsum dolor
+					amet sit lorem.
+				</div>
+				<div class="pr-product-d">
+					<img src="images/products/tipe-d.png" class="pr-img-lg">
+				</div>
+				<div class="pr-desc-d">
+					LAGI LAGI LAIN LAGI lorem ipsum
+					dolor sit amet. Lorem ipsum
+					sit dolor amet. Ipsum dolor
+					amet sit lorem.
+				</div>
+			</div>
+			<div class="pr-title">
+				WAWAS</br>PLATFORM
+			</div>
+		</div>
+
+		<!------------------------------- contact page ------------------------------->
+		<div id="contact" style="display: none;">
+			<div id="bar">
+				<div class="wl-content" id="about-content-3">
+					c
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>

@@ -1,0 +1,185 @@
+.column-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-flex div {
+    width: 350px;
+    height: auto;
+}
+
+figure.snip1104 {
+    font-family: 'Raleway', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+figure.snip1104 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+figure.snip1104 img {
+    max-width: 100%;
+    position: relative;
+    opacity: 0.4;
+}
+
+figure.snip1104:hover img {
+    opacity: 1;
+}
+
+figure.snip1104 figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+figure.snip1104 h2 {
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    display: inline-block;
+    background: #000000;
+    -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+    transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+    padding: 12px 5px;
+    margin: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+figure.snip1104 h2 span {
+    font-weight: 800;
+}
+
+figure.snip1104:before {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    content: '';
+    background: #ffbd88;
+    position: absolute;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+figure.snip1104 a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+figure.snip1104.blue {
+    background: #fff8cd;
+}
+
+figure.snip1104.blue h2 {
+    background: #343434;
+}
+
+figure.snip1104:hover h2,
+figure.snip1104.hover h2 {
+    -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+    transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+}
+
+figure.snip1104:hover:before,
+figure.snip1104.hover:before {
+    -webkit-transform: rotate(110deg) translateY(-150%);
+    transform: rotate(110deg) translateY(-150%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 28px;
+    box-shadow: 10px 10px 8px 10px #8f8163;
+    background-color: #faa76c;
+    padding-top: 10px;
+    padding: 15px 15px 0 30px;
+}
+
+.mid {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 30px;
+    width: auto;
+}
+
+.idtim {
+    position: relative;
+}
+
+.idtim:hover .image {
+    opacity: 0.3;
+}
+
+.idtim:hover .mid {
+    opacity: 1;
+}
+
+.midtext {
+    background-color: #dfdfdf;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    padding: 30px 60px;
+
+}
+
+.text-content {
+    text-align: center;
+}
+
+.contact1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fcf0ba;
+    width: auto;
+}

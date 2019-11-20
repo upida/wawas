@@ -1,0 +1,150 @@
+.pr-content {
+  width: 60%;
+  height: 100vh;
+  float: right;
+  text-align: center;
+  position: static;
+}
+
+.pr-content:hover+.pr-title {
+  display: none;
+}
+
+.pr-product-a {
+  width: 50%;
+  height: 50%;
+  float: left;
+  border: 1px solid #c8d8e6ff;
+  position: relative;
+}
+
+.pr-product-a:hover {
+  background-color: #c8d8e6ff;
+}
+
+.pr-product-b {
+  width: 50%;
+  height: 50%;
+  float: left;
+  border: 1px solid #c8d8e6ff;
+  position: relative;
+}
+
+.pr-product-b:hover {
+  background-color: #c8d8e6ff;
+}
+
+.pr-product-c {
+  width: 50%;
+  height: 50%;
+  float: left;
+  border: 1px solid #c8d8e6ff;
+  position: relative;
+}
+
+.pr-product-c:hover {
+  background-color: #c8d8e6ff;
+}
+
+.pr-product-d {
+  width: 50%;
+  height: 50%;
+  float: left;
+  border: 1px solid #c8d8e6ff;
+  position: relative;
+}
+
+.pr-product-d:hover {
+  background-color: #c8d8e6ff;
+}
+
+.pr-title {
+  color: #777777;
+  font-style: bold;
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  left: 10%;
+  top: 40%;
+  text-align: left;
+  position: absolute;
+  display: block;
+}
+
+.pr-desc-a {
+  width: 20%;
+  float: right;
+  text-align: center;
+  color: #777777;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  top: 40%;
+  left: 10%;
+  display: none;
+}
+
+.pr-product-a:hover+.pr-desc-a {
+  display: block;
+  position: absolute;
+}
+
+.pr-desc-b {
+  width: 20%;
+  float: right;
+  text-align: center;
+  color: #777777;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  top: 40%;
+  left: 10%;
+  display: none;
+}
+
+.pr-product-b:hover+.pr-desc-b {
+  display: block;
+  position: absolute;
+}
+
+.pr-desc-c {
+  width: 20%;
+  float: right;
+  text-align: center;
+  color: #777777;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  top: 40%;
+  left: 10%;
+  display: none;
+}
+
+.pr-product-c:hover+.pr-desc-c {
+  display: block;
+  position: absolute;
+}
+
+.pr-desc-d {
+  width: 20%;
+  float: right;
+  text-align: center;
+  color: #777777;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  top: 40%;
+  left: 10%;
+  display: none;
+}
+
+.pr-product-d:hover+.pr-desc-d {
+  display: block;
+  position: absolute;
+}
+
+.pr-img-lg {
+  display: block;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.pr-img-sm {
+  margin: auto;
+  margin-top: 20%;
+}
