@@ -30,7 +30,7 @@ body {
   width: 60%;
   height: 100vh;
   float: right;
-  background-image: url("https://github.com/upida/wawas/blob/master/images/welcome/img-1.jpg");
+  background-image: url("/images/welcome/img-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
